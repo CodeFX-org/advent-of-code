@@ -1,6 +1,8 @@
 {
 	"compilerOptions": {
-	"outDir": "./output"
+		"outDir": "./output",
+		"strictNullChecks": true,
+		"target": "ES2020",
 	},
 	"inclue": ["src/*"],
 	"exclude": []
