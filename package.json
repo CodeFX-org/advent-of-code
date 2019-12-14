@@ -1,0 +1,18 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "description": "https://adventofcode.com",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": "tsc",
+	"start": "ts-node src/all.ts"
+  },
+  "author": "nipa",
+  "license": "WTFPL",
+  "dependencies": {},
+  "devDependencies": {
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
+  }
+}
